@@ -5,6 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("https://img.freepik.com/vector-gratis/fondo-galaxia-acuarela_23-2149233518.jpg?w=740&t=st=1687198348~exp=1687198948~hmac=feeec876d84d3f9241cd77c77abc3e9de7a7355b0f03e4693c05ce9291e6735b");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 code {

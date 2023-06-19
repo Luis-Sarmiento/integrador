@@ -1,3 +1,8 @@
+@font-face {
+   font-family: rick_and_morty;
+   src: url(./assets/fonts/get_schwifty.ttf);
+}
 .App {
-   text-align: center;
+   /* text-align: center; */
+   font-family: rick_and_morty;
 }
