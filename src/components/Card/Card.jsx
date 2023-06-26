@@ -64,7 +64,7 @@ export default function Card(props) {
    return (
       <DivCard>
          <DivImg>
-            <ButtonClose onClick={props.onClose}>X</ButtonClose>
+            <ButtonClose onClick={() => props.onClose(props.id)}>X</ButtonClose>
             <Img src={props.image} alt='' />
             <Name>{props.name}</Name>
          </DivImg>
